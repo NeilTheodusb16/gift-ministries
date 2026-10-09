@@ -6,7 +6,7 @@ export default defineConfig({
   // ─── Base URL ──────────────────────────────────────────────────────────────
   // Use '/' for a custom domain or user/org page (username.github.io).
   // Change to '/your-repo-name/' if deploying to a GitHub project page.
-  base: '/',
+  base: '/gift-ministries/',
 
   plugins: [
     react(),
