@@ -1,60 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+```html
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="%BASE_URL%GIFT.png" />
+<link rel="apple-touch-icon" href="%BASE_URL%GIFT.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Open Graph image -->
+<meta property="og:image" content="%BASE_URL%GIFT_Ministries.png" />
 
-  <!-- Favicon (served from /public) -->
-  <link rel="icon" type="image/png" href="/GIFT.png" />
-  <link rel="apple-touch-icon" href="/GIFT.png" />
-  <meta name="theme-color" content="#1e3a5f" />
-
-  <!-- Primary Meta -->
-  <title>GIFT Ministries</title>
-  <meta name="description"
-    content="Gathering in Faith Together (GIFT) Baptist Church & GIFT Ministries — pastor profile, sermons, prayer requests, and giving." />
-  <meta name="robots" content="index, follow" />
-
-  <!-- Open Graph / Social Share -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="GIFT Ministries" />
-  <meta property="og:description"
-    content="Gathering in Faith Together (GIFT) Baptist Church & GIFT Ministries — pastor profile, sermons, prayer requests, and giving." />
-  <meta property="og:image" content="/GIFT_Ministries.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="GIFT Ministries" />
-  <meta name="twitter:description"
-    content="Gathering in Faith Together (GIFT) Baptist Church & GIFT Ministries — pastor profile, sermons, prayer requests, and giving." />
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap"
-    rel="stylesheet" />
-  <!-- GitHub Pages SPA path restore (pairs with public/404.html) -->
-  <script>
-    (function () {
-      var p = window.location.search.match(/[?&]p=\/([^&]*)/);
-      if (p) {
-        var q = window.location.search.match(/[?&]q=([^&]*)/);
-        window.history.replaceState(
-          null, null,
-          '/' + p[1].replace(/~and~/g, '&') +
-          (q ? '?' + q[1].replace(/~and~/g, '&') : '') +
-          window.location.hash
-        );
-      }
-    })();
-  </script>
-</head>
-
-
-
-<body class="bg-slate-50 text-slate-800 antialiased font-sans selection:bg-gold-300 selection:text-navy-900">
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
-
-</html>
+<!-- React entry point: keep this as-is -->
+<script type="module" src="/src/main.jsx"></script>
+```
