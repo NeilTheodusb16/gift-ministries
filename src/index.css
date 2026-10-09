@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-50: #f0f5fa;
+  --color-navy-100: #dce5f0;
+  --color-navy-700: #244e6b;
+  --color-navy-800: #17324d;
+  --color-navy-900: #0f2338;
+  --color-navy-950: #0a1726;
+
+  --color-churchBlue-400: #4288b3;
+  --color-churchBlue-500: #2f6f95;
+  --color-churchBlue-600: #245978;
+
+  --color-cream-50: #fcfbf8;
+  --color-cream-100: #f8f5ef;
+  --color-cream-200: #ede6d6;
+
+  --color-gold-200: #f5e9c9;
+  --color-gold-300: #e8d39f;
+  --color-gold-400: #d9c58f;
+  --color-gold-500: #c9a45c;
+  --color-gold-600: #b08b43;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+/* Custom Glassmorphism & Animations */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.glass-dark {
+  background: rgba(23, 50, 77, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f5e9c9 0%, #d9c58f 50%, #c9a45c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-shadow {
+  box-shadow: 0 10px 30px -10px rgba(23, 50, 77, 0.12);
+}
