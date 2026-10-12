@@ -28,7 +28,7 @@ export default function PastorProfile() {
             <div className="text-center pb-6 border-b border-white/10">
               <div className="w-24 h-24 mx-auto rounded-full bg-white p-2 shadow-inner mb-4 flex items-center justify-center">
                 <img
-                  src="/GIFT.png"
+                  src={`${import.meta.env.BASE_URL}GIFT.png`}
                   alt="GIFT Logo"
                   className="w-full h-full object-contain"
                 />

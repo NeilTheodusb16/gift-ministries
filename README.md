@@ -52,6 +52,20 @@ npm run dev
 npm run build
 ```
 
+### 4. Deploy to GitHub Pages
+
+This repository is a Vite project and GitHub Pages must serve the generated
+`dist/` directory, not the repository root. Build and publish it with:
+
+```bash
+npm run deploy
+```
+
+In the repository's **Settings → Pages**, set the source to **Deploy from a
+branch**, select the `gh-pages` branch, and choose the `/(root)` folder. The
+configured Vite base path (`/gift-ministries/`) matches this repository's
+GitHub Pages project URL; do not publish the source `index.html` directly.
+
 ## 🎨 Key Features
 - **Tailwind CSS Styling**: Customized palette (`navy`, `churchBlue`, `cream`, `gold`).
 - **GIFT.png Branding**: Utilized as the core identity across header, hero card, pastor profile, and footer.
